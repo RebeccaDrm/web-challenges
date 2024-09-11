@@ -13,7 +13,7 @@ console.clear();
 // --v-- write your code here --v--
 const title = "Title";
 const text = "Hello world!";
-let likes = 1;
+let likes = 100;
 const user = "Rebecca";
 const isReported = true;
 
@@ -31,3 +31,4 @@ console.log(isReported);
 // --^-- write your code here --^--
 
 likes += 1;
+console.log(likes);
