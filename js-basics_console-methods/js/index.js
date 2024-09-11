@@ -18,8 +18,6 @@ console.log(hacking);
 console.clear();
 // 6. Store the text 'This is an error!' in the variable 'error'.
 const error = "this is an error!";
-console.log(error);
 // 7. Which method is used to display an error message in the console? Use it do display the error message in the console.
-const error = "this is an error!";
 console.error("error!");
 // Well done!
