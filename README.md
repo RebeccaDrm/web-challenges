@@ -5,7 +5,7 @@
  3. css-basics_pseudo-park ✅  
  4. css-basics_combined-users ❌
  5. css-basics_Playground: Button styles ✅
- 6. css-basics_Pokemon page ❌
+ 6. css-basics_Pokemon page ✅
  7. css-basics_Homework: Personal Website Styling ❌
  8. css-flexbox_navigation ❌
  9. css-flexbox_flexbox Profile ❌
