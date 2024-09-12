@@ -7,7 +7,7 @@
  5. css-basics_Playground: Button styles ✅
  6. css-basics_Pokemon page ✅
  7. css-basics_Homework: Personal Website Styling ❌
- 8. css-flexbox_navigation ❌
+ 8. css-flexbox_navigation ✅
  9. css-flexbox_flexbox Profile ❌
  10. css-flexbox_Personal Website ❌
  11. css-positioning_absolute-no-advanced-requirements ✅
