@@ -41,7 +41,7 @@ li {
   border-radius: 8px;
   box-shadow: 4px 4px 0 lightslategray;
   padding: 20px;
-  max-width: 250px;
+  max-width: 400px;
   margin: 0;
   background-color: white;
 }
@@ -55,6 +55,7 @@ li {
 .bio {
   font-size: 14px;
   color: darkslategray;
+  margin: 6px 0;
 }
 
 .location {
@@ -62,6 +63,38 @@ li {
   font-weight: 600;
   text-align: end;
   margin: 0;
+}
+
+aside .user {
+  position: relative;
+  border: 2px solid lightslategray;
+  border-radius: 4px;
+  box-shadow: 4px 4px 0 lightslategray;
+  padding: 12px;
+  max-width: 250px;
+  margin: 0;
+  background-color: white;
+}
+
+aside .name {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+ul .user .bio {
+  display: none;
+  font-size: 12px;
+  margin: 6px 0;
+  color: darkslategray;
+}
+
+ul .user .location {
+  font-size: 10px;
+  font-weight: 600;
+  text-align: left;
+  margin: 0;
+  color: darkslategray;
 }
 
 /*

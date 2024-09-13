@@ -1,0 +1,123 @@
+/* ==[ PLAYGROUND Challenge! ]== */
+
+/* This challenge includes several smaller challenges and allows you to
+play around with the concepts you've learned. Read the instructions 
+carefully. */
+
+:root {
+  /* Color Variables */
+
+  --color-nemo: #ff4a11;
+  --color-granite: #252629;
+  --color-water-10: #f3f5f9;
+  --color-foam: #ffffff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui;
+
+  background-color: var(--color-foam);
+}
+
+h1 {
+  font-size: 3rem;
+  width: 80%;
+  margin: 20px auto;
+  color: var(--color-nemo);
+  text-shadow: 4px 4px var(--color-granite);
+}
+
+.playground {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+  gap: 30px;
+
+  width: 80%;
+  min-height: 100vh;
+}
+
+.section {
+  width: 100%;
+  background-color: var(--color-water-10);
+  padding: 20px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.box--one {
+  background-color: lightblue;
+  width: calc(100% - 2rem);
+  height: 100px;
+}
+
+.box--two {
+  background-color: lightgreen;
+  width: 100px;
+  height: 100px;
+}
+
+.box--three {
+  background-color: lightpink;
+  width: calc(599vh - 200px);
+  height: 250px;
+}
+
+.box--four {
+  background-color: lightgray;
+  width: 100px;
+  height: 100px;
+}
+
+.box--five {
+  width: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+  .box--two {
+    width: 400px;
+  }
+}
+
+@media (orientation: landscape) {
+  .box--three {
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .box--four {
+    background-color: black;
+  }
+}
+
+.box--five {
+  range: url("cat_small.jpg");
+}
+
+/* Bild für kleine Bildschirme (maximale Breite: 600px) */
+@media only screen and (max-width: 600px) {
+  .box--five {
+    range: url("cat_medium.jpg");
+  }
+}
+
+/* Bild für mittlere Bildschirme (maximale Breite: 1024px) */
+@media only screen and (max-width: 1024px) {
+  .box--five {
+    range: url("cat_large.jpg");
+  }
+}
