@@ -61,6 +61,20 @@
   - form-validation ✅
   - personal-profile-form ✅
 
+- JS Objects and Arrays
+
+  - Arrays ✅
+  - Objects ✅
+  - Objects and Arrays ✅
+
+- JS Inputs and Strings
+
+  - Input to uppercase ✅
+  - Input to uppercase and lowercase ✅
+  - Switch values ✅
+  - Multiple inputs ✅
+  - Change box appearance ✅
+
 - Personal Website
 
   - CSS Basics ✅
